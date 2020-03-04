@@ -144,6 +144,14 @@ line-height: 40px;
     justify-content: flex-end;
     align-items: center;
 }
+.sobre_fundo_filtro{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
 .sobre{
     position: relative;
     display: flex;
@@ -158,5 +166,10 @@ line-height: 40px;
 }
 .texto_sobre{
     width: 40%;
-    margin-right: 100px;
+    margin-right: 150px;
+    text-align: right;
+    text-shadow: 0px 3px 3px #000;
+}
+.texto_sobre h2{
+    margin-bottom: 2em;
 }
